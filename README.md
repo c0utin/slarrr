@@ -68,13 +68,15 @@ Grafana will visualize the metrics collected by Prometheus.
 
 ## Metrics Visualization
 
-Below are examples of the dashboards in Grafana showing metrics from the auto-study code generation:
+Below are examples of the dashboards showing metrics from the auto-study code generation:
 
-![Grafana Dashboard](grafana_dashboard.png)
-*Figure 1: Grafana dashboard showing code generation frequency over time.*
+### Code Generation Frequency
+![Code Generation Frequency](grafana_dashboard.png)
+*Figure 1: Graph showing the frequency of code snippets generated over time*
 
-![Metrics Graph](metrics_graph.png)
-*Figure 2: Detailed metrics graph of code complexity and generation time.*
+### Generation Time Analysis
+![Generation Time Analysis](metrics_graph.png)
+*Figure 2: Graph showing the time taken to generate code snippets*
 
 ## Troubleshooting
 
